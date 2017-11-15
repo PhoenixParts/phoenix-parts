@@ -1,0 +1,15 @@
+{
+  "name": "phoenix-parts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "startBackend": "json-server --watch server/db.json --port 3004",
+    "startFrontend": "cd ./jims-ngrx-eg/ && ng serve ./client/.angular-cli.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.12.1"
+  }
+}
